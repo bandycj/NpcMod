@@ -1,0 +1,26 @@
+name: NpcMod
+version: 0.1
+author: Selurgniman
+main: org.selurgniman.bukkit.npcmod.NpcMod
+
+database: false
+
+commands:
+  mm:
+    description: Get your current zone.
+    permission: mm
+    usage: |
+      /<command> [list]
+  mmr:
+    description: Gets or sets the max radius.
+    permission: mmr
+    usage: |
+      /<command> [number]
+      
+permissions:
+  mm:
+    description: Gives access to the mm command.
+    default: true
+  mmr:
+    description: Gives access to the mmr command.
+    default: op
