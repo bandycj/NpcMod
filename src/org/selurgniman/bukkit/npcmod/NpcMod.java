@@ -17,8 +17,8 @@ import org.bukkit.plugin.java.JavaPlugin;
  */
 public class NpcMod extends JavaPlugin {
 	private static final Logger log = Logger.getLogger("Minecraft");
-
 	private static boolean isDebug = true;
+	private NpcModModel model = null;
 
 	@Override
 	public void onDisable() {
@@ -33,6 +33,7 @@ public class NpcMod extends JavaPlugin {
 		isDebug = getConfig().getBoolean("debug");
 		Message.populateMessages(getConfig());
 		
+		model = new NpcModModel(this);
 		registerEvents();
 		registerCommands();
 		
@@ -54,6 +55,10 @@ public class NpcMod extends JavaPlugin {
 		
 		log("registered commands.");
 	}
+	
+	public NpcModModel getModel(){
+		return this.model;
+	}
 
 	public static void messagePlayer(Player player, String message) {
 		player.sendMessage(Message.PREFIX + " " + message);
@@ -72,5 +77,10 @@ public class NpcMod extends JavaPlugin {
 			}
 			log("DEBUG: " + message);
 		}
+	}
+	
+	@Override
+	public String toString(){
+		return "NpcModModel";
 	}
 }

@@ -1,4 +1,4 @@
-debug: false
+debug: true
 
 messages:
   enabled: '§aenabled§f'
@@ -15,151 +15,57 @@ messages:
 
 maxRadius: 1000.0
 
-zones:
-  wood:
-    color: GREEN
-    radius: 0.0
-    loot:
-      - WOOD_AXE
-      - WOOD_PICKAXE
-      - WOOD_SPADE
-      - WOOD_SWORD
-      - LEATHER_HELMET
-      - LEATHER_CHESTPLATE
-      - LEATHER_LEGGINGS
-      - LEATHER_BOOTS
-    damage: 1.0
-  stone:
-    color: GRAY
-    radius: 0.20
-    loot:
-      - STONE_AXE
-      - STONE_PICKAXE
-      - STONE_SPADE
-      - STONE_SWORD
-      - CHAINMAIL_HELMET
-      - CHAINMAIL_CHESTPLATE
-      - CHAINMAIL_LEGGINGS
-      - CHAINMAIL_BOOTS
-    damage: 1.5
-  iron:
-    color: DARK_GRAY
-    radius: 0.30
-    loot:
-      - IRON_AXE
-      - IRON_PICKAXE
-      - IRON_SPADE
-      - IRON_SWORD
-      - IRON_HELMET
-      - IRON_CHESTPLATE
-      - IRON_LEGGINGS
-      - IRON_BOOTS
-    damage: 2.0
-  bronze:
-    color: GOLD
-    radius: 0.40
-    loot:
-      - BRONZE_AXE
-      - BRONZE_PICKAXE
-      - BRONZE_SPADE
-      - BRONZE_SWORD
-      - BRONZE_HELMET
-      - BRONZE_CHESTPLATE
-      - BRONZE_LEGGINGS
-      - BRONZE_BOOTS
-    damage: 2.5
-  gold:
-    color: YELLOW
-    radius: 0.50
-    loot:
-      - GOLD_AXE
-      - GOLD_PICKAXE
-      - GOLD_SPADE
-      - GOLD_SWORD
-      - GOLD_HELMET
-      - GOLD_CHESTPLATE
-      - GOLD_LEGGINGS
-      - GOLD_BOOTS
-    damage: 3.0
-  diamond:
-    color: BLUE
-    radius: 0.60
-    loot:
-      - DIAMOND_AXE
-      - DIAMOND_PICKAXE
-      - DIAMOND_SPADE
-      - DIAMOND_SWORD
-      - DIAMOND_HELMET
-      - DIAMOND_CHESTPLATE
-      - DIAMOND_LEGGINGS
-      - DIAMOND_BOOTS
-    damage: 3.5
-  nano:
-    color: LIGHT_PURPLE
-    radius: 0.75
-    loot:
-      - NANO_BODYARMOR
-      - NANO_BOOTS
-      - NANO_HELMET
-      - NANO_LEGGINGS
-      - NANO_SABER
-    damage: 4.0
-  quantum:
-    color: DARK_PURPLE
-    radius: 0.80
-    loot:
-      - QUANTUM_BODYARMOR
-      - QUANTUM_BOOTS
-      - QUANTUM_HELMET
-      - QUANTUM_LEGGINGS
-    damage: 4.5
-  darkmatter:
-    color: BLACK
-    radius: 0.85
-    loot:
-      - DARK_AXE
-      - DARK_HAMMER
-      - DARK_HOE
-      - DARK_MATTER_ARMOR
-      - DARK_MATTER_BOOTS
-      - DARK_MATTER_GREAVES
-      - DARK_MATTER_HELMET
-      - DARK_PICKAXE
-      - DARK_SHEARS
-      - DARK_SPADE
-      - DARK_SWORD
-    damage: 5.0
-  redmatter:
-    color: DARK_RED
-    radius: 0.90
-    loot:
-      - RED_AXE
-      - RED_HAMMER
-      - RED_HOE
-      - RED_KATAR
-      - RED_MACE
-      - RED_PICKAXE
-      - RED_SHEARS
-      - RED_SPADE
-      - RED_SWORD
-      - RED_MATTER_ARMOR
-      - RED_MATTER_BOOTS
-      - RED_MATTER_GREAVES
-      - RED_MATTER_HELMET
-    damage: 5.5
-  gem:
-    color: MAGIC
-    radius: 0.95
-    loot:
-      - ARCANE_RING
-      - ATTRACTION_RING
-      - GRIMARCH_RING
-      - HARVEST_RING
-      - IGNITION_RING
-      - SWIFTWOLF_RING
-      - ZERO_RING
-      - RED_MATTER_ARMORP
-      - RED_MATTER_BOOTSP
-      - RED_MATTER_GREAVESP
-      - RED_MATTER_HELMETP
-    damage: 6.0
+values:
+  STONE: 1
+  GRASS: 1
+  DIRT: 1
+  COBBLESTONE: 1
+  WOOD: 32
+  SAPLING: 32
+  SAND: 1
+  GRAVEL: 4
+  LOG: 64
+  LEAVES: 1
+  LAPIS_ORE: 8
+  WEB: 12
+  DEAD_BUSH: 1
+  YELLOW_FLOWER: 16
+  RED_ROSE: 16
+  MOSSY_COBBLESTONE: 145
+  OBSIDIAN: 64
+  SNOW: 1
+  ICE: 1
+  SNOW_BLOCK: 1
+  CACTUS: 8
+  PUMPKIN: 144
+  NETHERRACK: 1
+  SOUL_SAND: 49
+  INK_SACK: 144
+  REDSTONE: 64
+  IRON_INGOT: 256
+  GOLD_INGOT: 2048
+  STICK: 4
+  STRING: 12
+  SULPHUR: 192
+  DIAMOND: 8192
+  EMERALD: 512
+  COAL: 128
+  CLAY_BALL: 16
+  GLOWSTONE_DUST: 384
+  MELON: 144
+  FLINT: 4
+  FEATHER: 48
+  LEATHER: 64
+  WHEAT: 24
+  APPLE: 128
+  SUGAR_CANE: 32
+  EGG: 32
+  BLAZE_ROD: 1536
+  NETHER_BRICK: 4
+  BROWN_MUSHROOM: 32
+  RED_MUSHROOM: 32
+  SLIME_BALL: 24
+  CLAY_BRICK: 64
+  SPIDER_EYE: 128
+  MILK_BUCKET: 833
+  ENDER_PEARL: 1024

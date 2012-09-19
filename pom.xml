@@ -60,7 +60,7 @@
 							<version>${version}</version>
 							<type>jar</type>
 							<overWrite>true</overWrite>
-							<outputDirectory>E:\mc\plugins</outputDirectory>
+							<outputDirectory>E:\github\bukkit\plugins</outputDirectory>
 							<destFileName>${artifactId}.jar</destFileName>
 						</artifactItem>
 					</artifactItems>
